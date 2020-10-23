@@ -10,8 +10,6 @@ public Color color;
 	public String model;
 	public String mark;
 
-
-
 	public Vehicle(Color color, double prize, String model, String mark) {
 		this.color = color;
 		this.prize = prize;
