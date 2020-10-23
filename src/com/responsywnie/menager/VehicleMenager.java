@@ -107,7 +107,7 @@ public class VehicleMenager {
 		int circle = scanner.nextInt();
 		System.out.println("Dodatkowe akcesoria: ");
 		String akcessorium = scanner.nextLine();
-		return new Bicycle(prize,model,mark,frame,deralerious,circle,akcessorium);
+//		return new Bicycle(prize,model,mark,frame,deralerious,circle,akcessorium);
 	}
 
 	private void addNextCar() {
@@ -135,7 +135,7 @@ public class VehicleMenager {
 		String color = scanner.nextLine();
 		System.out.println("Wprowadź stan licznika (przejechane KM):");
 		double kmTraveled = scanner.nextDouble();
-		return new Car(prize,model,mark,transmission,color,kmTraveled);
+//		return new Car(prize,model,mark,transmission,color,kmTraveled);
 	}
 
 	private int readOptionVehicleChoise() {

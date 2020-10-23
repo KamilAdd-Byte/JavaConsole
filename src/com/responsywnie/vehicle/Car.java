@@ -3,14 +3,15 @@ package com.responsywnie.vehicle;
 import java.util.Objects;
 
 public class Car extends Vehicle{
+
 	private String transmission;
-	private String color;
+	private String type;
 	private double kmTreveled;
 
-	public Car(double prize, String model, String mark, String transmission, String color, double kmTreveled) {
-		super(prize, model, mark);
+	public Car(Color color, double prize, String model, String mark, String transmission, String type, double kmTreveled) {
+		super(color, prize, model, mark);
 		this.transmission = transmission;
-		this.color = color;
+		this.type = type;
 		this.kmTreveled = kmTreveled;
 	}
 
@@ -22,12 +23,12 @@ public class Car extends Vehicle{
 		this.transmission = transmission;
 	}
 
-	public String getColor() {
-		return color;
+	public String getType() {
+		return type;
 	}
 
-	public void setColor(String color) {
-		this.color = color;
+	public void setType(String type) {
+		this.type = type;
 	}
 
 	public double getKmTreveled() {
@@ -41,27 +42,16 @@ public class Car extends Vehicle{
 	@Override
 	public boolean equals(Object o) {
 		if (this == o) return true;
-		if (!(o instanceof Car)) return false;
+		if (o == null || getClass() != o.getClass()) return false;
 		if (!super.equals(o)) return false;
 		Car car = (Car) o;
 		return Double.compare(car.kmTreveled, kmTreveled) == 0 &&
 				transmission.equals(car.transmission) &&
-				color.equals(car.color);
+				type.equals(car.type);
 	}
 
 	@Override
 	public int hashCode() {
-		return Objects.hash(super.hashCode(), transmission, color, kmTreveled);
-	}
-
-	@Override
-	public String toString() {
-		String result = "Cena auta: " + getPrize();
-		result+="Model samochodu: " + getModel();
-		result+="Marka samochodu: " + getMark();
-		result+="Skrzynia biegów: " + transmission;
-		result+="Color auta: " + color;
-		result+="Przejechane kilometry: " + kmTreveled;
-		return result;
+		return Objects.hash(super.hashCode(), transmission, type, kmTreveled);
 	}
 }
