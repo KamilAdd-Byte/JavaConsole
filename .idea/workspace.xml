@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f0cb488b-e644-4387-8d37-781a4400fbca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="f0cb488b-e644-4387-8d37-781a4400fbca" name="Default Changelist" comment="Modified toString in Bicycle.java">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaConsole/com/responsywnie/menager/VehicleMenager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaConsole/com/responsywnie/menager/VehicleMenager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaConsole/com/responsywnie/vehicle/Bicycle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaConsole/com/responsywnie/vehicle/Bicycle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaConsole/com/responsywnie/vehicle/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaConsole/com/responsywnie/vehicle/Car.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/responsywnie/menager/VehicleMenager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/responsywnie/menager/VehicleMenager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/responsywnie/vehicle/Bicycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/responsywnie/vehicle/Bicycle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +23,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="KamilAdd-Byte &lt;kamillodzinski09@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="object" />
@@ -90,12 +99,16 @@
       <workItem from="1603487825105" duration="4546000" />
       <workItem from="1603579818433" duration="714000" />
       <workItem from="1603738326528" duration="930000" />
-      <workItem from="1603739832549" duration="10587000" />
+      <workItem from="1603739832549" duration="13969000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Modified toString in Bicycle.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modified toString in Bicycle.java" />
   </component>
   <component name="WindowStateProjectService">
     <state x="768" y="258" width="496" height="556" key="#com.intellij.ide.util.MemberChooser" timestamp="1603746925431">
@@ -106,22 +119,26 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="693" y="289" width="524" height="494" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1603740514044" />
-    <state width="1878" height="546" key="GridCell.Tab.0.bottom" timestamp="1603749822169">
+    <state x="441" y="105" width="1028" height="861" key="CommitChangelistDialog2" timestamp="1603750885029">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="546" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1603749822169" />
-    <state width="1878" height="546" key="GridCell.Tab.0.center" timestamp="1603749822168">
+    <state x="441" y="105" width="1028" height="861" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1603750885029" />
+    <state width="1878" height="304" key="GridCell.Tab.0.bottom" timestamp="1603753768355">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="546" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1603749822168" />
-    <state width="1878" height="546" key="GridCell.Tab.0.left" timestamp="1603749822167">
+    <state width="1878" height="304" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1603753768355" />
+    <state width="1878" height="304" key="GridCell.Tab.0.center" timestamp="1603753768355">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="546" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1603749822167" />
-    <state width="1878" height="546" key="GridCell.Tab.0.right" timestamp="1603749822169">
+    <state width="1878" height="304" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1603753768355" />
+    <state width="1878" height="304" key="GridCell.Tab.0.left" timestamp="1603753768354">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="546" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1603749822169" />
+    <state width="1878" height="304" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1603753768354" />
+    <state width="1878" height="304" key="GridCell.Tab.0.right" timestamp="1603753768355">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="304" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1603753768355" />
     <state width="1878" height="733" key="GridCell.Tab.1.bottom" timestamp="1603748283765">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

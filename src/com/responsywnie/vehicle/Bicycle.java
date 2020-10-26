@@ -69,14 +69,13 @@ public class Bicycle extends Vehicle{
 
 	@Override
 	public String toString() {
-		return "Bicycle{" +
-				"frame='" + frame + '\'' +
-				", deralerious='" + deralerious + '\'' +
-				", circle=" + circle +
-				", akcessorium='" + akcessorium + '\'' +
-				", prize=" + prize +
-				", model='" + model + '\'' +
-				", mark='" + mark + '\'' +
-				'}';
+		String result = "Cena roweru: " + getPrize();
+		result+="Model roweru: " + getModel();
+		result+="Marka roweru: " + getMark();
+		result+="Rama - typ:" + frame;
+		result+="Model przerzutek: " + deralerious;
+		result+="Typ kół: " + circle;
+		result+="Dodatkowe akcesoria: " + akcessorium;
+		return result;
 	}
 }

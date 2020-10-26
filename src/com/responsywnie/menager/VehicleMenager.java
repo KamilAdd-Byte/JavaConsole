@@ -13,8 +13,8 @@ public class VehicleMenager {
 	final static int TIME = 4;
 	final static int SHOW_VEHICLE = 2;
 	final static int DELETE_VEHICLE = 3;
-	final static int ADD_CAR = 5;
-	final static int ADD_BICYCLE = 6;
+	static int ADD_CAR = 5;
+	static int ADD_BICYCLE = 6;
 
 	Scanner scanner = new Scanner(System.in);
 	VehicleDataBase vehicleDataBase = new VehicleDataBase();
@@ -66,11 +66,12 @@ public class VehicleMenager {
 	private void choiseVehicle(int option) {
 		printVehicleChoise();
 		option = readOptionVehicleChoise();
-		if (option == ADD_CAR){
+		if (option == ADD_CAR)
+		{
 			addNextCar();
-		if (option == ADD_BICYCLE){
-			addNextBicycle();
 		}
+		if (option == ADD_BICYCLE) {
+			addNextBicycle();
 		}else if (option == EXIT){
 			myLoop();
 		}else
@@ -79,13 +80,23 @@ public class VehicleMenager {
 
 	private void addNextBicycle() {
 		Vehicle vehicle = createBicycle();
-		vehicleList.add(vehicle);
-		System.out.println("Dodano do bazy");
+		if (vehicleList.contains(vehicle)) {
+			//update
+		} else {
+			vehicleDataBase.addVehicle(vehicle);
+		}
 	}
 
 	private Bicycle createBicycle() {
 		System.out.println("Wprowadź cenę roweru: ");
-		double prize = scanner.nextDouble();
+		double prize = 0;
+			try {
+				prize = scanner.nextDouble();
+			} catch (InputMismatchException e) {
+				System.err.println("Błąd");
+				e.getCause();
+				e.getStackTrace();
+			}
 		scanner.nextLine();
 		System.out.println("Wprowadź model roweru (MOUNTAIN\n" +
 				"ROAD bike\n" +
@@ -140,6 +151,7 @@ public class VehicleMenager {
 	}
 
 	private void printVehicleChoise() {
+		System.out.println("Dodaj auto lub rower do bazy:");
 		System.out.println(ADD_CAR + " >>> Dodaj auto do bazy");
 		System.out.println(ADD_BICYCLE + " >>> Dodaj rower do bazy");
 		System.out.println(EXIT + " >>> Wyjście do głównego menu");
