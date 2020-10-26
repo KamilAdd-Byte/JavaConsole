@@ -2,10 +2,13 @@ import com.responsywnie.database.VehicleDataBase;
 import com.responsywnie.vehicle.Car;
 import com.responsywnie.vehicle.Vehicle;
 
+import java.util.ArrayList;
+import java.util.List;
+
 
 public class TEST {
     public static void main(String[] args) {
-
+        List<Vehicle> vehicleList = new ArrayList<>();
         VehicleDataBase vehicleDataBase = new VehicleDataBase();
         vehicleDataBase.addVehicle(new Vehicle(456.345,"Model","Marka"));
         vehicleDataBase.addVehicle(new Car(777777,"DREW","NIEZNANA","AUTO","SUV",4444569));

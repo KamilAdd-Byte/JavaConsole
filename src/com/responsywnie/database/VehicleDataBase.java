@@ -15,6 +15,8 @@ public class VehicleDataBase {
             throw new NullPointerException("Nie można dodać do bazy");
         } else
             vehicleList.add(vehicle);
+        System.out.println("Dodano pojazd do bazy");
+        System.out.println("W bazie jest już pojazdów: "+ sizeList());
     }
     public void removeVehicle(int index){
         vehicleList.remove(index);
@@ -28,6 +30,14 @@ public class VehicleDataBase {
                 System.out.println(vehicle);
             }
         return vehicleList.get(index);
+    }
+
+    public void getAllVehicle(int index){
+        if (vehicleList == null){
+            System.out.println("Nie ma pojazdów w bazie");
+        }else
+            vehicleList.get(index);
+        System.out.println("W bazie jest już pojazdów: "+vehicleList.size());
     }
 
     public int sizeList() {
