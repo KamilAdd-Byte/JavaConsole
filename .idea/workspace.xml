@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0cb488b-e644-4387-8d37-781a4400fbca" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaConsole/TEST.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaConsole/TEST.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaConsole/com/responsywnie/database/VehicleDataBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaConsole/com/responsywnie/database/VehicleDataBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainShop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TEST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TEST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/responsywnie/database/VehicleDataBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/responsywnie/database/VehicleDataBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/responsywnie/menager/VehicleMenager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/responsywnie/menager/VehicleMenager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/responsywnie/vehicle/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/responsywnie/vehicle/Car.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +90,7 @@
       <workItem from="1603487825105" duration="4546000" />
       <workItem from="1603579818433" duration="714000" />
       <workItem from="1603738326528" duration="930000" />
-      <workItem from="1603739832549" duration="9834000" />
+      <workItem from="1603739832549" duration="10587000" />
     </task>
     <servers />
   </component>
@@ -112,22 +106,22 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="693" y="289" width="524" height="494" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1603740514044" />
-    <state width="1878" height="289" key="GridCell.Tab.0.bottom" timestamp="1603749582390">
+    <state width="1878" height="546" key="GridCell.Tab.0.bottom" timestamp="1603749822169">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="289" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1603749582390" />
-    <state width="1878" height="289" key="GridCell.Tab.0.center" timestamp="1603749582389">
+    <state width="1878" height="546" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1603749822169" />
+    <state width="1878" height="546" key="GridCell.Tab.0.center" timestamp="1603749822168">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="289" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1603749582389" />
-    <state width="1878" height="289" key="GridCell.Tab.0.left" timestamp="1603749582389">
+    <state width="1878" height="546" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1603749822168" />
+    <state width="1878" height="546" key="GridCell.Tab.0.left" timestamp="1603749822167">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="289" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1603749582389" />
-    <state width="1878" height="289" key="GridCell.Tab.0.right" timestamp="1603749582389">
+    <state width="1878" height="546" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1603749822167" />
+    <state width="1878" height="546" key="GridCell.Tab.0.right" timestamp="1603749822169">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="289" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1603749582389" />
+    <state width="1878" height="546" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1603749822169" />
     <state width="1878" height="733" key="GridCell.Tab.1.bottom" timestamp="1603748283765">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
