@@ -8,12 +8,14 @@ public class Car extends Vehicle{
 	private String type;
 	private double kmTreveled;
 
-	public Car(Color color, double prize, String model, String mark, String transmission, String type, double kmTreveled) {
-		super(color, prize, model, mark);
+
+	public Car(double prize, String model, String mark, String transmission, String type, double kmTreveled) {
+		super(prize, model, mark);
 		this.transmission = transmission;
 		this.type = type;
 		this.kmTreveled = kmTreveled;
 	}
+
 
 	public String getTransmission() {
 		return transmission;
@@ -53,5 +55,17 @@ public class Car extends Vehicle{
 	@Override
 	public int hashCode() {
 		return Objects.hash(super.hashCode(), transmission, type, kmTreveled);
+	}
+
+	@Override
+	public String toString() {
+		return "Car{" +
+				"transmission='" + transmission + '\'' +
+				", type='" + type + '\'' +
+				", kmTreveled=" + kmTreveled +
+				", prize=" + prize +
+				", model='" + model + '\'' +
+				", mark='" + mark + '\'' +
+				'}';
 	}
 }

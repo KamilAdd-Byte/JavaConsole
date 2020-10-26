@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0cb488b-e644-4387-8d37-781a4400fbca" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TEST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/responsywnie/database/VehicleDataBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/responsywnie/menager/MainShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainShop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/responsywnie/menager/VehicleMenager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/responsywnie/menager/VehicleMenager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/responsywnie/vehicle/Bicycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/responsywnie/vehicle/Bicycle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/responsywnie/vehicle/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/responsywnie/vehicle/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/responsywnie/vehicle/Color.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/responsywnie/vehicle/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/responsywnie/vehicle/Vehicle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,10 +22,16 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="object" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
@@ -40,6 +54,31 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
+  <component name="RunManager">
+    <configuration name="TEST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TEST" />
+      <module name="JavaConsole" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TEST" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -50,7 +89,8 @@
       <updated>1603487823439</updated>
       <workItem from="1603487825105" duration="4546000" />
       <workItem from="1603579818433" duration="714000" />
-      <workItem from="1603738326528" duration="696000" />
+      <workItem from="1603738326528" duration="930000" />
+      <workItem from="1603739832549" duration="5160000" />
     </task>
     <servers />
   </component>
@@ -58,13 +98,29 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="768" y="258" width="374" height="556" key="#com.intellij.ide.util.MemberChooser" timestamp="1603491440617">
+    <state x="768" y="258" width="496" height="556" key="#com.intellij.ide.util.MemberChooser" timestamp="1603744390335">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="768" y="258" width="374" height="556" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1603491440617" />
-    <state x="693" y="289" width="524" height="494" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603489652116">
+    <state x="768" y="258" width="496" height="556" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1603744390335" />
+    <state x="693" y="289" width="524" height="494" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603740514044">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="693" y="289" width="524" height="494" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1603489652116" />
+    <state x="693" y="289" width="524" height="494" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1603740514044" />
+    <state width="1878" height="321" key="GridCell.Tab.0.bottom" timestamp="1603744979857">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="321" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1603744979857" />
+    <state width="1878" height="321" key="GridCell.Tab.0.center" timestamp="1603744979856">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="321" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1603744979856" />
+    <state width="1878" height="321" key="GridCell.Tab.0.left" timestamp="1603744979856">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="321" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1603744979856" />
+    <state width="1878" height="321" key="GridCell.Tab.0.right" timestamp="1603744979857">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="321" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1603744979857" />
   </component>
 </project>

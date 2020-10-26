@@ -9,8 +9,9 @@ public class Bicycle extends Vehicle{
 	private int circle;
 	private String akcessorium;
 
-	public Bicycle(Color color, double prize, String model, String mark, String frame, String deralerious, int circle, String akcessorium) {
-		super(color, prize, model, mark);
+	public Bicycle(double prize, String model, String mark, String frame, String deralerious,
+				   int circle, String akcessorium) {
+		super(prize, model, mark);
 		this.frame = frame;
 		this.deralerious = deralerious;
 		this.circle = circle;
@@ -64,5 +65,18 @@ public class Bicycle extends Vehicle{
 	@Override
 	public int hashCode() {
 		return Objects.hash(super.hashCode(), frame, deralerious, circle, akcessorium);
+	}
+
+	@Override
+	public String toString() {
+		return "Bicycle{" +
+				"frame='" + frame + '\'' +
+				", deralerious='" + deralerious + '\'' +
+				", circle=" + circle +
+				", akcessorium='" + akcessorium + '\'' +
+				", prize=" + prize +
+				", model='" + model + '\'' +
+				", mark='" + mark + '\'' +
+				'}';
 	}
 }
