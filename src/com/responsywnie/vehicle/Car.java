@@ -2,7 +2,7 @@ package com.responsywnie.vehicle;
 
 import java.util.Objects;
 
-public class Car extends Vehicle{
+public class Car extends Vehicle {
 
 	private String transmission;
 	private String type;
@@ -59,13 +59,12 @@ public class Car extends Vehicle{
 
 	@Override
 	public String toString() {
-		return "Car{" +
-				"transmission='" + transmission + '\'' +
-				", type='" + type + '\'' +
-				", kmTreveled=" + kmTreveled +
-				", prize=" + prize +
-				", model='" + model + '\'' +
-				", mark='" + mark + '\'' +
-				'}';
+		String result = "Cena auta: " + getPrize();
+		result += "Model samochodu: " + getModel();
+		result += " Marka samochodu: " + getMark();
+		result += " Skrzynia biegów: " + transmission;
+		result += " Typ auta: " + type;
+		result += " Przejechane kilometry: " + kmTreveled;
+		return result;
 	}
 }
