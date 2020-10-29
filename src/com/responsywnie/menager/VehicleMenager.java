@@ -38,7 +38,7 @@ public class VehicleMenager {
 					showVehicle();
 					break;
 				case DELETE_VEHICLE:
-					deleteVehicle(index);
+					deleteVehicle();
 					break;
 				case TIME:
 					Date date = new Date();
@@ -50,12 +50,9 @@ public class VehicleMenager {
 		}while (option != EXIT);
 	}
 
-	private void deleteVehicle(int index) {
+	private void deleteVehicle() {
 		System.out.println("Jaki pojazd chcesz usunać?:");
-		for (Vehicle vehicle : vehicleList) {
-			vehicleDataBase.getAllVehicle(index);
-		}
-		vehicleDataBase.removeVehicle(scanner.nextInt());
+		//tu skończyłem
 	}
 
 	private void showVehicle() {
@@ -89,15 +86,16 @@ public class VehicleMenager {
 
 	private Bicycle createBicycle() {
 		System.out.println("Wprowadź cenę roweru: ");
-		double prize = 0;
+		double prize=0;
 			try {
-				prize = scanner.nextDouble();
+					prize = scanner.nextDouble();
+					scanner.nextLine();
 			} catch (InputMismatchException e) {
 				System.err.println("Błąd");
-				e.getCause();
 				e.getStackTrace();
 			}
-		scanner.nextLine();
+			scanner.nextLine();
+
 		System.out.println("Wprowadź model roweru (MOUNTAIN\n" +
 				"ROAD bike\n" +
 				"CROSS bike)");

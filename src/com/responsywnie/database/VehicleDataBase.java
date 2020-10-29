@@ -27,12 +27,14 @@ public class VehicleDataBase {
             System.out.println("Nie ma pojazdów w bazie");
         }else
             for (Vehicle vehicle : vehicleList) {
+                System.out.println(vehicleList.get(index));
                 System.out.println(vehicle);
             }
         return vehicleList.get(index);
     }
 
-    public void getAllVehicle(int index){
+    public void getAllVehicle(Vehicle vehicle){
+        int index = 0;
         if (vehicleList == null){
             System.out.println("Nie ma pojazdów w bazie");
         }else
@@ -44,4 +46,5 @@ public class VehicleDataBase {
         System.out.println(vehicleList.size());
         return vehicleList.size();
   }
+
 }

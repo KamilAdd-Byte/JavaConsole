@@ -1,13 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="f0cb488b-e644-4387-8d37-781a4400fbca" name="Default Changelist" comment="Modified toString in Bicycle.java">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaConsole/TEST.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaConsole/TEST.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaConsole/com/responsywnie/database/VehicleDataBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaConsole/com/responsywnie/database/VehicleDataBase.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JavaConsole/com/responsywnie/menager/VehicleMenager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaConsole/com/responsywnie/menager/VehicleMenager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaConsole/com/responsywnie/vehicle/Bicycle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaConsole/com/responsywnie/vehicle/Bicycle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaConsole/com/responsywnie/vehicle/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaConsole/com/responsywnie/vehicle/Car.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TEST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TEST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/responsywnie/database/VehicleDataBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/responsywnie/database/VehicleDataBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/responsywnie/menager/VehicleMenager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/responsywnie/menager/VehicleMenager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/responsywnie/vehicle/Bicycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/responsywnie/vehicle/Bicycle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,12 +118,25 @@
       <workItem from="1603487825105" duration="4546000" />
       <workItem from="1603579818433" duration="714000" />
       <workItem from="1603738326528" duration="930000" />
-      <workItem from="1603739832549" duration="13969000" />
+      <workItem from="1603739832549" duration="14122000" />
+      <workItem from="1603815072453" duration="1787000" />
+      <workItem from="1603980333868" duration="332000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Modified toString in Bicycle.java" />
@@ -123,37 +155,37 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="441" y="105" width="1028" height="861" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1603750885029" />
-    <state width="1878" height="304" key="GridCell.Tab.0.bottom" timestamp="1603753768355">
+    <state width="1878" height="531" key="GridCell.Tab.0.bottom" timestamp="1603816860036">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="304" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1603753768355" />
-    <state width="1878" height="304" key="GridCell.Tab.0.center" timestamp="1603753768355">
+    <state width="1878" height="531" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1603816860036" />
+    <state width="1878" height="531" key="GridCell.Tab.0.center" timestamp="1603816860034">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="304" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1603753768355" />
-    <state width="1878" height="304" key="GridCell.Tab.0.left" timestamp="1603753768354">
+    <state width="1878" height="531" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1603816860034" />
+    <state width="1878" height="531" key="GridCell.Tab.0.left" timestamp="1603816860034">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="304" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1603753768354" />
-    <state width="1878" height="304" key="GridCell.Tab.0.right" timestamp="1603753768355">
+    <state width="1878" height="531" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1603816860034" />
+    <state width="1878" height="531" key="GridCell.Tab.0.right" timestamp="1603816860035">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="304" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1603753768355" />
-    <state width="1878" height="733" key="GridCell.Tab.1.bottom" timestamp="1603748283765">
+    <state width="1878" height="531" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1603816860035" />
+    <state width="1878" height="733" key="GridCell.Tab.1.bottom" timestamp="1603753961563">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="733" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1603748283765" />
-    <state width="1878" height="733" key="GridCell.Tab.1.center" timestamp="1603748283765">
+    <state width="1878" height="733" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1603753961563" />
+    <state width="1878" height="733" key="GridCell.Tab.1.center" timestamp="1603753961562">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="733" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1603748283765" />
-    <state width="1878" height="733" key="GridCell.Tab.1.left" timestamp="1603748283765">
+    <state width="1878" height="733" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1603753961562" />
+    <state width="1878" height="733" key="GridCell.Tab.1.left" timestamp="1603753961562">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="733" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1603748283765" />
-    <state width="1878" height="733" key="GridCell.Tab.1.right" timestamp="1603748283765">
+    <state width="1878" height="733" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1603753961562" />
+    <state width="1878" height="733" key="GridCell.Tab.1.right" timestamp="1603753961562">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="733" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1603748283765" />
+    <state width="1878" height="733" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1603753961562" />
   </component>
 </project>
